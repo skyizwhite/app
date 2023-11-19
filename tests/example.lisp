@@ -3,8 +3,8 @@
         #:fiveam))
 (in-package #:app-tests/example)
 
-(def-suite example-test-suite)
-(in-suite example-test-suite)
+(def-suite example-test)
+(in-suite example-test)
 
-(test example-test
+(test adder-test
   (is (= (+ 1 1) 2)))

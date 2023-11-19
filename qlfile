@@ -1,5 +1,4 @@
 ;; dev dependencies
 ql uiop
 ql fiveam
-ql fiveam-asdf
 ql lake

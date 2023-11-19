@@ -1,8 +1,8 @@
 (defsystem "app-tests"
-  :defsystem-depends-on ("fiveam-asdf")
-  :class :package-inferred-fiveam-tester-system
+  :class :package-inferred-system
   :pathname "tests"
   :depends-on ((:version "uiop" "3.3.6")
                "fiveam"
                "app-tests/example")
-  :test-names ((#:example-test-suite . #:app-tests/example)))
+  :perform (test-op (o c)
+                    (symbol-call :fiveam :run-all-tests)))
