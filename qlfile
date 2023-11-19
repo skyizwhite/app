@@ -1,4 +1,8 @@
-;; dev dependencies
 ql uiop
+ql alexandria
+ql serapeum
+ql trivia
+
+;; dev dependencies
 ql fiveam
 ql lake
