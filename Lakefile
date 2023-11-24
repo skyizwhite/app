@@ -6,4 +6,5 @@
 (in-package #:lake-user)
 
 (task "test" ()
-  (asdf:test-system :app))
+  (require "app")
+  (asdf:test-system "app"))

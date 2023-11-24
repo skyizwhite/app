@@ -17,7 +17,6 @@ For macOS,
 ```
 $ git clone https://github.com/skyizwhite/app-template
 $ qlot install
-$ .qlot/bin/lake-tools dump
 ```
 
 ## Run task
