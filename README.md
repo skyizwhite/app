@@ -1,4 +1,4 @@
-# app-template
+# app
 
 My personal project template for Common Lisp.
 
@@ -15,7 +15,7 @@ My personal project template for Common Lisp.
 For macOS, 
 
 ```
-$ git clone https://github.com/skyizwhite/app-template
+$ git clone https://github.com/skyizwhite/app.git
 $ qlot install
 ```
 
@@ -26,7 +26,3 @@ $ qlot install
 ```
 $ .qlot/bin/lake test
 ```
-
-## Author
-
-paku (skyizwhite) <[paku@skyizwhite.dev](mailto:paku@skyizwhite.dev)>
