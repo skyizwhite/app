@@ -1,7 +1,5 @@
 ql uiop
-ql alexandria
-ql serapeum
-ql trivia
-
-;; dev dependencies
 ql fiveam
+ql alexandria
+ql trivia
+ql cl-dotenv
